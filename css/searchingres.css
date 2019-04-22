@@ -1,0 +1,139 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.contact {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.contact .overlay {
+  padding: 50px 0;
+  color: #FFF; }
+
+.contact h2 {
+  font-size: 35px;
+text-align:center;
+
+  }
+.h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.contact form {
+  width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  overflow: hidden; }
+
+.contact form input[type="text"]
+ {
+  width: 48%;
+  padding: 0 5px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 1px solid #CCC; }
+
+.contact form textarea {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  height: 140px;
+  border-radius: 10px;
+  border: 1px solid #CCC; }
+
+.contact form .info {
+  overflow: hidden;
+  margin-top: 10px; }
+
+.contact form .info button {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  border: 1px s;
+  background-color: #ec1c23;
+  border: none;
+  color: #FFF;
+  border-radius: 10px;
+  font-size: 14px; 
+  }
+.contact form .info button:hover{background-color:#d63031;
+}
+.main-color{
+	
+	color: #ec1c23;
+}
+.upper{color:#08626d;
+text-transform: Uppercase;
+}
+.main{text-align:center;}
+.container .selector{
+	padding:5px;
+	margin:auto;
+	width:50%;
+	color:#FFF;
+	font-weight:bold;
+	font-family:arial;
+	border-radius: 10px;
+	border-color:#BB2525;
+}
+.contact .container fieldset{
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+    margin:auto;
+    border-top-style:solid;
+	border-top-color:#DDD;
+	width:62%;
+text-align:left;
+ line-height: 1;
+
+}
+.contact .container legend{
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;	
+	margin:left;
+	width:30%;
+   text-align: left;
+   color:#000;
+}
+/* start navbar*/
+.navbar-brand span:last-child{
+	color:#ec1c23;
+	
+}
+.navbar-brand span:first-child{
+	color:#08626d;
+	font-weight:bold;
+}
+.navbar-brand span{
+	font-size:35px;
+	
+}
+.navbar-nav .nav-link{font-size:16px;
+text-transform:uppercase;
+margin-left:20px;
+color:#08626d;
+font-weight:bold;
+
+}
+.navbar-nav .active>.nav-link {color:#ec1c23 !important}
+/* end navbar*/
