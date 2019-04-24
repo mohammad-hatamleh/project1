@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>search directly</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<style>
+/*start navbar*/
+.navbar-brand span:last-child{
+	color:#ec1c23;
+  }
+.navbar-brand span:first-child{
+	color:#08626d;
+	font-weight:bold;
+  }
+.navbar-brand span{
+	font-size:35px;
+	
+  }
+.navbar .container .navbar-brand .directly {
+    color:#ec1c23;
+  }
+.navbar-nav .nav-link{
+    font-size:16px;
+    text-transform:uppercase;
+    margin-left:20px;
+    color:#08626d;
+    font-weight:bold;
+
+  }
+.navbar-nav .active>.nav-link {
+    color:#ec1c23 !important
+  }
+/*end navbar*/
+
+
+/*start intro sighup*/
+.container .forms .sun{
+    text-align:center;
+    opacity:.5;
+  }
+/*end intro sighnup*/ 
+ 
+ 
+/*start form*/
+.container .row .forms{
+    width:50%;
+    margin:auto;
+    border:3px solid #08626d; 
+    padding:20px;
+    background-color:white;
+    overflow:auto;
+    margin-top:10px;
+  }
+.container .row .forms .fform form .allin{
+    width:80%;
+    padding:20px;
+    margin:5px;
+    margin-left:26px;
+    height:15px;
+    border: 1px solid #CCC;
+    border-radius:10px;
+    line-height:2;
+  }
+.container .row .forms .fform form .in{
+    width:37.5%;
+    padding:20px;
+    margin:4px;
+    margin-left:22px;
+    height:15px;
+    border: 1px solid #CCC;
+    border-radius:10px;
+    display:inline;
+    line-height:2;
+  }
+
+
+.container .row .forms .fform form .upper1{
+    padding: 10px;
+    width: 500px;
+    border: 1px s;
+    background-color: #ec1c23;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left:3.3%;
+    margin-top:25px;
+  }
+.container .row .forms .fform form .upper1:hover{
+    background-color:rgba(255, 56, 56,1.0);
+  }
+.container .row .forms .fform form .forget{
+    margin-left:42%;
+    color:#ec1c23;
+  }
+.container .row .forms .fform form .forget:hover{
+    color:rgba(255, 56, 56,1.0);
+  }
+.container .row .forms .fform form .remember{
+    margin-left:30px;
+  }
+
+.container .row .forms nav .fa{
+    align-items:left;
+  }
+.container .row .forms .fform form fieldset{
+    width:79.5%;
+    margin-left:12%;
+    min-width: 0;
+    padding: 5px; 
+    margin:10; 
+    border:1px solid #DDD;
+    border-radius:10px;
+    text-align:left;
+    margin-top:20px;
+  }
+.container .row .forms .fform form fieldset legend{
+    width:19%;
+    max-width: 100%;
+    padding:5px;
+    margin-bottom:0px;
+    line-height:.5;
+    border-redius:10px;
+    font-weight:lighter;
+
+  }  
+.container .row .forms .fform form .gend1,.gend{
+    width:80%;
+    height:40px;
+    margin-left:23px;
+    border-radius:10px;
+  }
+
+/*end form*/
+</style>
+</head>
+
+<body>
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+		  <a class="navbar-brand" href="#">
+		  <span>gaint</span><span class="directly">Book</span>
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="signin.html">Sign In</a>
+			  </li>
+			   <li class="nav-item active">
+				<a class="nav-link" href="#">Sign Up</a>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link" href="searching2.html">Search Directly</a>
+			  </li>
+			</ul>
+
+		  </div>
+ </div>
+</nav>
+
+<!-- end navbar -->
+<div class="container text-center col">
+    <div class="row">
+        <div class="forms col-lg-6 col-md-9 col-12">
+            <!-- start intro signup -->
+            <p class="sun col">________________________________sign up with________________________________</p></br>
+            <nav>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></br>
+            </nav></br>
+            <p class="sun col">_____________________________________or____________________________________</p>
+            <!-- end intro signup -->
+            <!-- start  form -->
+            <div class="fform ">
+                <form >
+                    <input type="text" placeholder="First name" class="in "></input>
+                    <input type="text" placeholder="Last name" class="in "></input></br>
+                    <input type="email" name="mail" placeholder="E-mail" class="allin"></input></br>
+                    <input type="text" placeholder="Username" class="allin"></input>
+                    <input type="password" placeholder="Password" class="allin "></input></br>
+                    <fieldset>
+                        <legend>Birthday</legend>
+                        <select>
+                             <option selected disabled >Day</option><option>1</option> <option>2</option><option>3</option> <option>4</option><option>5</option><option>6</option><option>7</option> <option>8</option><option>9</option> <option>10</option><option>11</option> <option>12</option><option>13</option> <option>14</option><option>15</option> <option>16</option><option>17</option> <option>18</option><option>19</option> <option>20</option><option>21</option> <option>22</option><option>23</option> <option>24</option><option>25</option> <option>26</option><option>27</option><option>28</option> <option>29</option><option>30</option> <option>31</option>
+                        </select>
+                        <select>
+                            <option selected disabled >Month</option> <option>January</option> <option>February</option><option>March</option> <option>April</option><option>May</option> <option>June</option><option>July</option> <option>August</option><option>September</option> <option>October</option><option>November</option> <option>December</option>
+                        </select>
+                        <select>
+                            <option selected disabled >Year</option> 
+                            <option>2014</option> <option>2013</option><option>2012</option> <option>2011</option><option>2010</option> <option>2009</option><option>2008</option><option>2007</option> <option>2006</option><option>2005</option> <option>2004</option><option>2003</option> <option>2002</option> <option>2001</option><option>2000</option> <option>1999</option><option>1998</option> <option>1997</option><option>1996</option> <option>1995</option><option>1994</option> <option>1993</option><option>1992</option> <option>1991</option><option>1990</option> <option>1989</option><option>1988</option> <option>1987</option><option>1986</option> <option>1985</option><option>1984</option> <option>1983</option><option>1982</option> <option>1981</option><option>1980</option> <option>1979</option><option>1978</option> <option>1977</option><option>1976</option> <option>1975</option><option>1974</option> <option>1973</option><option>1972</option> <option>1971</option><option>1970</option> <option>1969</option><option>1968</option> <option>1967</option><option>1966</option> <option>1965</option><option>1964</option> <option>1963</option><option>1962</option> <option>1961</option><option>1960</option> <option>1959</option><option>1958</option> <option>1957</option><option>1956</option> <option>1955</option><option>1954</option> <option>1953</option><option>1952</option> <option>1951</option><option>1950</option> <option>1949</option><option>1948</option> <option>1947</option><option>1946</option> <option>1945</option><option>1944</option> <option>1943</option><option>1942</option> <option>1941</option><option>1940</option> <option>1939</option><option>1938</option> <option>1937</option><option>1936</option> <option>1935</option><option>1934</option> <option>1933</option><option>1932</option> <option>1931</option><option>1930</option> <option>1929</option><option>1928</option> <option>1927</option><option>1926</option> <option>1925</option><option>1924</option> <option>1923</option><option>1922</option> <option>1921</option><option>1920</option> <option>1919</option>
+                        </select>
+                    </fieldset></br>
+                    <select class="gend"><option selected disabled>Gender</option><option>Fmale</option><option>Male</option></select></br>
+                    <button class="upper1 col">Sign Up</button>
+                </form>
+                <!-- end form -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/custom.js"></script>
+</body>

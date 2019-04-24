@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>search directly</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/searchingres.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<style>
+.href{color:white;}
+</style>
+</head>
+    
+<body   class="contact">
+<!-- start navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+		  <a class="navbar-brand" href="#">
+              <span>gaint</span><span>Book</span>
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item ">
+				<a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="signin.html">Sign In</a>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link" href="signup.html">Sign Up</a>
+			  </li>
+			   <li class="nav-item active">
+				<a class="nav-link" href="#">Search Directly</a>
+			  </li>
+			</ul>
+
+		  </div>
+ </div>
+</nav>
+
+<!-- end navbar -->
+<!-- start select -->
+<div class="contact text-center ">
+    <div class="overlay ">
+        <div class="container ">
+            <h2 class="upper">Search <span class="main-color">directly</span></h2>
+            <div>
+                <fieldset class="selector ">
+                <legend class="legend ">Select your search</legend>
+					<select id="ss1" name="ss1" onchange="populate(this.id,'ss2')">
+                        <option selected disabled>select country</option>
+                        <option value="الاردن">الاردن</option>
+                        <option value="الامارات العربية المتحدة">الامارات العربية المتحدة</option>
+                        <option value="البحرين">البحرين</option>
+                        <option value="الجزائر">الجزائر</option>
+                        <option value="ليبيا">ليبيا</option>
+                        <option value="السعودية">السعودية</option>
+                        <option value="مصر">مصر</option>
+                        <option value="السودان">السودان</option>
+                        <option value="الصومال">الصومال</option>
+                        <option value="العراق">العراق</option>
+                        <option value="الكويت">الكويت</option>
+                        <option value="المغرب">المغرب</option>
+                        <option value="اليمن">اليمن</option>
+                        <option value="موريتانيا">موريتانيا</option>
+                        <option value="تونس">تونس</option>
+                        <option value="جزر القمر">جزر القمر</option>
+                        <option value="جيبوتي">جيبوتي</option>
+                        <option value="سوريا">سوريا</option>
+                        <option value="عمان">عمان</option>
+                        <option value="فلسطين">فلسطين</option>
+                        <option value="قطر">قطر</option>
+                        <option value="لبنان">لبنان</option>
+					</select>
+					<select id="ss2" name="ss2">
+                        <option selected disabled>select city</option>
+					</select>
+					
+					<select>
+                        <option selected disabled>select department</option>
+                        <option>الصحي</option>
+                        <option> التعليمي والتربوي</option>
+                        <option>الوظيفي</option>
+                        <option>المهني</option>
+                        <option>البيئي</option>
+                        <option>التكنولوجي</option>
+                        <option>الزراعي</option>
+                        <option>الصناعي</option>
+                        <option>التجاري</option>
+                        <option>السياسي</option>
+					</select>
+                </fieldset>
+            </div>
+
+            <form class="col-12">
+                <input type="text" name="DataType" placeholder="DataType">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea placeholder="note"></textarea>
+                <div class="info">
+                 <button class="upper">search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- end select -->    
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/searching.js"></script>
+</body>

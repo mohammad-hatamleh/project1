@@ -3,74 +3,105 @@
 	padding:0px;
 	
 }
+/* start navbar*/
+.navbar-brand span:last-child{
+	color:#ec1c23;
+  }
+.navbar-brand span:first-child{
+	color:#08626d;
+	font-weight:bold;
+  }
+.navbar-brand span{
+	font-size:35px;
+  }
+.navbar-nav .nav-link{
+    font-size:16px;
+    text-transform:uppercase;
+    margin-left:20px;
+    color:#08626d;
+    font-weight:bold;
+  }
+.navbar-nav .active>.nav-link {
+    color:#ec1c23 !important;
+  }
+/* end navbar*/
+
+/*start select*/
 .contact {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  }
 
 .contact .overlay {
-  padding: 50px 0;
-  color: #FFF; }
+    padding: 50px 0;
+    color: #FFF; 
+  }
 
 .contact h2 {
-  font-size: 35px;
-text-align:center;
-
+    font-size: 35px;
+    text-align:center;
   }
 .h2 {
     display: block;
     font-size: 1.5em;
     font-weight: bold;
-}
+  }
 .contact form {
-  width: 700px;
-  margin: 50px auto;
-  text-align: center;
-  overflow: hidden; }
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden; 
+  }
 
-.contact form input[type="text"]
- {
-  width: 48%;
-  padding: 0 5px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 10px;
-  border: 1px solid #CCC; }
-
+.contact form input[type="text"]{
+    width: 48%;
+    padding: 0 5px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #CCC; 
+  }
 .contact form textarea {
-  margin-top: 20px;
-  width: 100%;
-  padding: 10px;
-  height: 140px;
-  border-radius: 10px;
-  border: 1px solid #CCC; }
+    margin-top: 20px;
+    width: 98%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #CCC; 
+  }
 
 .contact form .info {
-  overflow: hidden;
-  margin-top: 10px; }
+    overflow: hidden;
+    margin-top: 10px; 
+    margin-left:7px;
+  }
 
 .contact form .info button {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  border: 1px s;
-  background-color: #ec1c23;
-  border: none;
-  color: #FFF;
-  border-radius: 10px;
-  font-size: 14px; 
+    float: left;
+    padding: 10px;
+    width: 200px;
+    border: 1px s;
+    background-color: #ec1c23;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 14px; 
   }
-.contact form .info button:hover{background-color:#d63031;
-}
+.contact form .info button:hover{
+    background-color:#d63031;
+  }
 .main-color{
-	
 	color: #ec1c23;
-}
-.upper{color:#08626d;
-text-transform: Uppercase;
-}
-.main{text-align:center;}
+  }
+.upper{
+    color:#08626d;
+    text-transform: Uppercase;
+  }
+.main{
+    text-align:center;
+  }
 .container .selector{
 	padding:5px;
 	margin:auto;
@@ -80,7 +111,7 @@ text-transform: Uppercase;
 	font-family:arial;
 	border-radius: 10px;
 	border-color:#BB2525;
-}
+  }
 .contact .container fieldset{
     display: block;
     margin-inline-start: 2px;
@@ -97,11 +128,10 @@ text-transform: Uppercase;
     margin:auto;
     border-top-style:solid;
 	border-top-color:#DDD;
-	width:62%;
-text-align:left;
- line-height: 1;
-
-}
+	width:58%;
+    text-align:left;
+    line-height: 1;
+  }
 .contact .container legend{
     display: block;
     padding-inline-start: 2px;
@@ -111,29 +141,9 @@ text-align:left;
     border-color: initial;
     border-image: initial;	
 	margin:left;
-	width:30%;
-   text-align: left;
-   color:#000;
-}
-/* start navbar*/
-.navbar-brand span:last-child{
-	color:#ec1c23;
-	
-}
-.navbar-brand span:first-child{
-	color:#08626d;
-	font-weight:bold;
-}
-.navbar-brand span{
-	font-size:35px;
-	
-}
-.navbar-nav .nav-link{font-size:16px;
-text-transform:uppercase;
-margin-left:20px;
-color:#08626d;
-font-weight:bold;
-
-}
-.navbar-nav .active>.nav-link {color:#ec1c23 !important}
-/* end navbar*/
+	width:36%;
+    text-align: left;
+    color:#000;
+    font-weight:normal; 
+  }
+/*end select*/
